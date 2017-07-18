@@ -12,6 +12,7 @@ then : http://monip:8080/
 
 Docker-compose :
 
+<code>
 version: '3'
 services:
   dokuwiki:
@@ -24,7 +25,7 @@ services:
     -  /your/volume/for/plugins:/var/www/html/lib/plugins:rw
     -  /your/volume/for/data:/var/www/html/data:rw
     -  /your/volume/for/conf:/var/www/html/conf:rw
-
+</code>
 
 If you'r volumes are empty at "docker-compose up" the dokuwiki will' not work then run :
   docker exec dokuwiki start
