@@ -13,7 +13,7 @@ then : http://monip:8080/
 Docker-compose :
 
 <code>
-version: '3' \\
+version: '3' \n
 services:
   dokuwiki:
     image: malexis/dokuwiki
