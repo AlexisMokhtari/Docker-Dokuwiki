@@ -6,7 +6,7 @@ Last update : dokuwiki 2017-02-19b (Actual stable)
 
 Quick install :
 ```
-  docker run -p 8080:80 malexis/dokuwiki
+  docker run -p 8080:80 malexis/apache-dokuwiki
 ```
 then : http://monip:8080/
 
@@ -15,7 +15,7 @@ Docker-compose :
 version: '3'
 services:
   dokuwiki:
-    image: malexis/dokuwiki
+    image: malexis/apache-dokuwiki
     container_name: dokuwiki
     ports:
     -  "8080:80"
