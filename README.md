@@ -27,6 +27,8 @@ services:
 ```
 
 If you'r volumes are empty at "docker-compose up" the dokuwiki will' not work then run :
+```
   docker exec dokuwiki start
+```
 
-Enjoy ! 
+
