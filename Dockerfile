@@ -3,6 +3,8 @@ MAINTAINER MOKHTARI Alexis <dev.mokhtaria@gmail.com>
 
 RUN apt-get update -y
 
+RUN apt-get install ntpdate
+
 ENV DOKU_VER 2017-02-19b
 
 RUN cd /var/www && \
