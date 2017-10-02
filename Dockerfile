@@ -3,7 +3,7 @@ MAINTAINER MOKHTARI Alexis <dev.mokhtaria@gmail.com>
 
 RUN apt-get update -y
 
-ENV TZ=America/Los_Angeles
+ENV TZ=Europe/Paris
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
 ENV DOKU_VER 2017-02-19b
