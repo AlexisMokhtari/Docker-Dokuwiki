@@ -3,7 +3,7 @@ MAINTAINER MOKHTARI Alexis <dev.mokhtaria@gmail.com>
 
 RUN apt-get update -y
 
-RUN apt-get install -y ntpdate && ntpdate 0.fr.pool.ntp.org
+RUN echo "Europe/Paris" > /etc/timezone
 
 ENV DOKU_VER 2017-02-19b
 
