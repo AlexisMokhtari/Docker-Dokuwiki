@@ -3,7 +3,14 @@ MAINTAINER MOKHTARI Alexis <dev.mokhtaria@gmail.com>
 
 RUN apt-get update -y
 
+<<<<<<< HEAD
 ENV DOKU_VER 2018-04-22b
+=======
+ENV TZ=Europe/Paris
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+
+ENV DOKU_VER 2017-02-19b
+>>>>>>> b365672c4c470e017e61377c699f1fd2f70da7fd
 
 RUN cd /var/www && \
     curl -O -L "https://download.dokuwiki.org/src/dokuwiki/dokuwiki-$DOKU_VER.tgz" && \
