@@ -3,7 +3,7 @@ MAINTAINER MOKHTARI Alexis <dev.mokhtaria@gmail.com>
 
 RUN apt-get update -y
 
-ENV DOKU_VER 2017-02-19b
+ENV DOKU_VER 2018-04-22b
 
 RUN cd /var/www && \
     curl -O -L "https://download.dokuwiki.org/src/dokuwiki/dokuwiki-$DOKU_VER.tgz" && \
