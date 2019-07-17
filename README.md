@@ -2,7 +2,7 @@
 
 Dokuwiki docker based on apache2 and php 7.0.
 
-Last update : dokuwiki 2017-02-19b (Actual stable)
+Last update : dokuwiki 2018-04-22b Greebo
 
 Quick install :
 ```
